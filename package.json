@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jineous27/11thApril_BuddyApp/issues"
   },
-  "homepage": "https://github.com/jineous27/11thApril_BuddyApp#readme"
+  "homepage": "https://github.com/jineous27/11thApril_BuddyApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
