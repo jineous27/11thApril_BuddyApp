@@ -6,7 +6,7 @@ const router = express.Router();
 // Get Whole Delivery Order Status ID
 router.get ('/', (req, res) =>{
     res.json ({
-        msg:"Successfully GET whole Delivery Order Status ID"
+        msg: "Successfully GET whole Delivery Order Status ID"
     });
 });
 
@@ -36,4 +36,4 @@ router.delete ('/', (req, res) => {
 });
 
 
-module.exports =router 
+module.exports =router;
