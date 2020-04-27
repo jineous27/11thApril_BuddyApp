@@ -9,6 +9,7 @@ const deliveryOrderStatusRoutes = require('./routes/DeliveryOrderStatus');
 const buddyPaymentIdRoutes = require('./routes/BuddyPayment_table');
 
 
+require("./database");
 app.use ('/api/buddyid', buddyIdRoutes);
 app.use ('/api/buddyvehicleid', buddyVehicleIdRoutes);
 app.use ('/api/buddytaskid', buddytaskidRoutes);
